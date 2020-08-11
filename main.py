@@ -10,4 +10,4 @@ def idontknowwhattonamethisfunction(length, inputs):
         bc = b[i % ba]
         a[i % length] += (bc + c)
         c += (bc ** 2) % d
-    return ''.join([char.CHARSET[cc % d] for cc in a])
+    return ''.join([CHARSET[cc % d] for cc in a])
